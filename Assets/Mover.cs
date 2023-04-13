@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    
+    float xValue = 0.1f;
+    float yValue = 0f;
+    float zValue = 0f;
     void Start()
     {
         
@@ -13,6 +15,6 @@ public class Mover : MonoBehaviour
     
     void Update()
     {
-        transform.Translate(1,0,0);
+        transform.Translate(xValue, yValue,zValue);
     }
 }
