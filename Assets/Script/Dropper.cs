@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Dropper : MonoBehaviour
-{
+{   
+    MeshRenderer renderer;
+    Rigidbody rigidbody;
     [SerializeField] float delayTimeToDrop = 3f;
     void Start()
     {
-        
+        renderer = GetComponent<MeshRenderer>();
+        rigidbody = GetComponent<Rigidbody>();
+
+        renderer.enabled = false;
+        rigidbody.useGravity = false;
     }
 
     
@@ -15,7 +21,9 @@ public class Dropper : MonoBehaviour
     {
       if(Time.time > delayTimeToDrop)
       {
-        GetComponent<Rigidbody>().useGravity = true;
+        renderer.enabled = true;
+        rigidbody.useGravity = true;
+
       }
         
     }
