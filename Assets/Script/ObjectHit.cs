@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class ObjectHit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  void OnCollisionEnter(Collision other) 
+  {
+    Debug.Log("Bumped into wall!");
+  }
 }
