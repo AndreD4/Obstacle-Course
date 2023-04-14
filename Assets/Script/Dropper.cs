@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Dropper : MonoBehaviour
 {
-    
+    [SerializeField] float delayTimeToDrop = 3f;
     void Start()
     {
         
@@ -13,7 +13,11 @@ public class Dropper : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(Time.time);
+      if(Time.time > delayTimeToDrop)
+      {
+        GetComponent<Rigidbody>().useGravity = true;
+      }
+        
     }
 
    
