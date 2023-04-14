@@ -432,8 +432,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877585299}
-  m_LocalRotation: {x: 0.38268274, y: -0, z: -0, w: 0.9238798}
-  m_LocalPosition: {x: 0, y: 4.0773654, z: -3.9173772}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 6.6017427, z: -6.441743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1275034078}
@@ -579,8 +579,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.38268274, y: 0, z: 0, w: 0.9238798}
-  m_LocalPosition: {x: 0, y: 4.0773654, z: -3.9173772}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 6.6017427, z: -6.441743}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 5.54
+  m_CameraDistance: 9.11
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -927,6 +927,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3772844349000427959, guid: aa27d8762c45cae45a1ecb698f9c06eb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 21.952003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772844349000427959, guid: aa27d8762c45cae45a1ecb698f9c06eb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.14
       objectReference: {fileID: 0}
@@ -982,6 +986,10 @@ PrefabInstance:
     - target: {fileID: 3772844349000427959, guid: aa27d8762c45cae45a1ecb698f9c06eb, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772844349000427959, guid: aa27d8762c45cae45a1ecb698f9c06eb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 21.952003
       objectReference: {fileID: 0}
     - target: {fileID: 3772844349000427959, guid: aa27d8762c45cae45a1ecb698f9c06eb, type: 3}
       propertyPath: m_LocalPosition.x
