@@ -9,7 +9,6 @@ public class Scorer : MonoBehaviour
     {
       //hits = hits +1;
       hits++;
-
       Debug.Log("You've bumped into a thing this many times:" + hits);
     }
 }
